@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btnHeader {
+    @apply p-2 border border-light bg-light/20 rounded-full hover:bg-light/30 transition duration-300;
+  }
+
+  .btnPlay {
+    @apply w-full py-3 rounded border-2 border-brandcolor font-bold text-lg transition duration-300;
+  }
+}
