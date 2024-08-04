@@ -4,17 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" type="image/x-icon" href="./src/image/ghost1.svg" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <title>Studio ghibli</title>
   </head>
   <body
-    class="font-body text-light bg-backgroundImg h-screen overflow-hidden bg-no-repeat bg-cover bg-fixed -z-20 w-full bg-top"
+    class="font-body text-light bg-backgroundImg overflow-hidden bg-no-repeat bg-cover bg-fixed -z-20 w-full bg-top h-[100vh] flex flex-col"
   >
     <header
       class="flex flex-row justify-center items-center md:justify-around gap-24 h-24 md:h-32 lg:h-44"
@@ -57,9 +51,9 @@
         </div>
       </div>
     </header>
-    <section class="h-screen mx-3">
+    <section class="flex-1 mx-3 mt-10 md:mt-16 lg:mt-36">
       <div
-        class="flex flex-col-reverse lg:flex-row justify-center items-center h-[700px] xl:h-[700px]"
+        class="flex flex-col-reverse lg:flex-row justify-center items-center"
       >
         <div
           class="max-w-[24rem] lg:max-w-[32rem] flex flex-col gap-2 lg:gap-4 xl:mr-20 mx-3"
@@ -101,26 +95,28 @@
       </div>
     </section>
     <footer
-      class="flex flex-col md:flex-row justify-center items-center text-light text-sm md:text-base fixed bottom-0 w-full gap-0 md:gap-2 h-12 md:h-10"
+      class="flex flex-col md:flex-row justify-center items-center text-light text-sm md:text-base w-full my-2"
     >
-      <span
-        >Desafio do
-        <a
-          href="https://github.com/iuricode"
-          target="_blank"
-          class="text-brandcolor hover:text-brandcolor/70 transition duration-300"
-          >IuriCode</a
-        >.</span
-      >
-      <span
-        >Desenvolvido por
-        <a
-          href="https://github.com/RFATeixeira"
-          target="_blank"
-          class="text-brandcolor hover:text-brandcolor/70 transition duration-300"
-          >Raphael Teixeira</a
-        >.</span
-      >
+      <div class="flex flex-col md:flex-row text-center gap-x-2 bottom-0">
+        <span
+          >Desafio do
+          <a
+            href="https://github.com/iuricode"
+            target="_blank"
+            class="text-brandcolor hover:text-brandcolor/70 transition duration-300"
+            >IuriCode</a
+          >.</span
+        >
+        <span
+          >Desenvolvido por
+          <a
+            href="https://github.com/RFATeixeira"
+            target="_blank"
+            class="text-brandcolor hover:text-brandcolor/70 transition duration-300"
+            >Raphael Teixeira</a
+          >.</span
+        >
+      </div>
     </footer>
   </body>
 </html>
